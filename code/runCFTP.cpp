@@ -9,10 +9,12 @@ int main() {
 	start = clock();
 
 	ofstream in;
-	in.open("SAres.txt", ios_base::app);
+	in.open("res.txt", ios_base::app);
+	int first, end, loop;
+	cin >> start >> end;
+	cin >> loop; 
 
-	for(int i = 67; i <= 71; i++) {
-		int loop = 5;
+	for(int i = first; i <= end; i++) {
 		in << "File: p" << to_string(i) << endl;
 		for(int j = 0; j < loop; j++) {
 			char s[100];
@@ -29,6 +31,7 @@ int main() {
 	stop = clock();
 	in << "Finally: " << (double)(stop-start)/CLOCKS_PER_SEC << " s" << endl;
 	in.close();
+
 
 	// system("shutdown -s -t 30");
 	return 0;

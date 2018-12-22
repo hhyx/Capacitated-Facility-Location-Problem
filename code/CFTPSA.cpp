@@ -406,7 +406,7 @@ int main(int argc, char *argv[]) {
 	stop = clock();
 	
 	ofstream in;
-	in.open("LocalSearchres.txt", ios_base::app);
+	in.open("res.txt", ios_base::app);
 	
 	in << "Use Time: " << (double)(stop-start)/CLOCKS_PER_SEC << " s" << endl;
 	in << "result:  " << endl;
@@ -423,6 +423,20 @@ int main(int argc, char *argv[]) {
 	in << endl;
 	in.close();
 	cout << best << endl;
+
+	// cout << "File: " << File << endl;
+	// cout << "Use Time: " << (double)(stop-start)/CLOCKS_PER_SEC << " s" << endl;
+	// cout << "result:  " << endl;
+	// cout << best << endl;
+	// for(int i = 0; i < Facility; i++) {
+	// 	cout << FacilityBest[i] << " ";
+	// }
+	// cout << endl;
+	// for(int i = 0; i < Customer; i++) {
+	// 	cout << CustomerBest[i] << " ";
+	// }
+	// cout << endl;
+	// cout << endl;
 
 	return 0;	
 } 
