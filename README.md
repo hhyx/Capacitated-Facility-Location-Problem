@@ -17,3 +17,28 @@ Note：
 - Result_requirement
  
 ![Result requirement](https://github.com/hhyx/Capacitated-Facility-Location-Problem/blob/master/image/Result_requirement.png)
+
+
+
+
+#  运行方式
+ 
+- 编译：
+
+  g++ CFTPSA.cpp -o CFTPSA -std=c++11
+
+  g++ CFTPGreedy.cpp -o CFTPGreedy -std=c++11
+
+  g++ runCFTP.cpp -o run
+
+- 运行单个文件，输入文件序号
+
+  CFTPSA 1
+
+  CFTPGreedy 1
+
+- 运行所有文件，输入文件起始序号，结束序号，每个文件运行次数
+
+  run 
+
+  1 71 10
