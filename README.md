@@ -10,3 +10,10 @@ Note：
  2. The total demand assigned to a facility must not exceed its
     capacity.
 
+- Input format
+ 
+![Input format](https://github.com/hhyx/Capacitated-Facility-Location-Problem/blob/master/image/Input_format.png)
+
+- Result_requirement
+ 
+![Result requirement](https://github.com/hhyx/Capacitated-Facility-Location-Problem/blob/master/image/Result_requirement.png)
